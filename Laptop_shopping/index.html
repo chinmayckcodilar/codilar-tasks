@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessorries</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="Acer.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Gaming consoles</a></li>
+                    <li><a href="">Laptop Accesories</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" class="menu" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>ACER OFFICE BOOK</h2>
+                <h3>Intel i9 high perfomance processor with 1TB SSD and 32 GB RAM</h3>
+                <p>Windows 11</p>
+                <h4>$999</h4>
+                <button type="button">Buy Now!</button>
+            </div>
+            <div class="col-2"><img src="Laptop.png" alt="laptop" class="controller">
+                <div class="color-box"></div>
+            </div>
+        </div>
+    </div>
+
+
+   <script>
+
+    var menuList=document.getElementById("menuList");
+    menuList.style.maxHeight="0px";
+    function togglemenu(){
+        if(menuList.style.maxHeight=="0px")
+        {
+            menuList.style.maxHeight="130px";
+        }
+        else
+        {
+            menuList.style.maxHeight="0px"
+        }
+    }
+   </script> 
+</body>
+</html>

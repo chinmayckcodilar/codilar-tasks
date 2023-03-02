@@ -1,0 +1,31 @@
+@media only screen and (min-width:100px) {
+  body {
+    background-color: rgb(235, 254, 255);
+  }
+
+}
+
+hr{
+    background-color: rgb(233, 254, 255);
+    border-width: 10px;
+    width:10%;
+    border-style: dotted none none;
+    border-color: rgb(15, 205, 230);
+ }
+
+ .my-img{
+    border-radius: 50%;
+ }
+ 
+ .skills{
+  padding: 0px 0px 0px 20px;
+ }
+
+ table{ 
+  width: 100%;
+ border-spacing: 20px;
+ }
+
+ .blog-img{
+  width:100%
+ }
