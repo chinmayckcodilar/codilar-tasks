@@ -1,0 +1,336 @@
+body{
+
+    margin: 0%;
+    font-family: sans-serif;
+
+}
+.background-container{
+    background: url("https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+header {
+
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    position: absolute;
+    left: 115px;
+    top: 31px;
+}
+  
+
+  .account a {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #444;
+    text-decoration: none;
+  }
+  
+  .account a:hover {
+    color: #f55d2d;
+  }
+  
+  .menu-icon {
+    width: 20px;
+    height: 15px;
+    position: relative;
+    cursor: pointer;
+    left: 25px;
+    top: 4px;
+  }
+  
+  .menu-icon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #000000;
+    border-radius: 2px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .menu-icon span:nth-child(1) {
+    top: 0px;
+  }
+  
+  .menu-icon span:nth-child(2),
+  .menu-icon span:nth-child(3) {
+    top: 8px;
+  }
+  
+  .menu-icon span:nth-child(3) {
+    top: 16px;
+  }
+  
+  .menu-icon.open span:nth-child(1) {
+    top: 10px;
+    width: 0%;
+    left: 50%;
+  }
+  
+  .menu-icon.open span:nth-child(2) {
+    transform: rotate(45deg);
+  }
+  
+  .menu-icon.open span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  
+  .l-btn {
+    background-color: #ffffff;
+    border:solid gray;
+    color: #000000;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 120px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .l-btn img {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    position: relative;
+    top:4px;
+  }
+
+  .s-btn {
+    background-color: #000000;
+    border:solid gray;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 120px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #ff6e4a;
+  }
+  
+
+  .tagline{
+    position: absolute;
+    left: 30px;
+    top:190px;
+    font-family: sans-serif;
+    font-size: x-large;
+  }
+
+  .tagline input{
+    width: 90%;
+    height:40px;
+    position: relative;
+    left: 20px;
+    border-left: #ffffff ;
+  }
+
+  .tagline img{
+    padding-top: 07px;
+    padding-bottom: 17px;
+    background-color: white;
+    width: 23.70px;
+    height: 19.15px;
+    position: absolute;
+
+    border-bottom:1.5px black solid;
+    border-top:1.5px black solid;
+    border-left:1.5px black solid;
+    
+  }
+
+
+  /*Okay*/
+
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #fff;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: absolute;
+    left: 565px;
+    bottom:349px
+  }
+  
+  .dropbtn:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .dropbtn:focus {
+    outline: none;
+  }
+  
+  /* Dropdown Content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    left: 565px;
+    bottom:269px;
+  }
+  
+  .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #e6e6e6;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .delivery-dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  .find-food-btn {
+    position: absolute;
+    background-color: #000000;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+    left: 694px;
+    bottom: 348px;
+  }
+  
+  .find-food-btn:hover {
+    background-color: #12d216;
+  }
+  
+  .find-food-btn:focus {
+    outline: none;
+  }
+  
+  .recentaddr{
+    position: absolute;
+    bottom: 295px;
+    left: 31px;
+    font-family: sans-serif;
+   
+  }
+  
+  .recentaddr span{
+    text-decoration: underline;
+
+  }
+
+  .gallery {
+    display: flex;
+    position: relative;
+    right: 12px;;
+    padding: 0px,40px;
+   
+  }
+
+  .gallery figcaption{
+    font-family: sans-serif;
+    font-size: 24px;
+    
+  }
+
+  .gallery .fig1{
+    width:260px;
+    height: 166.76px;
+  }
+
+
+  .gallery .fig1 a{
+    font-size: small;
+    font-family: sans-serif;
+    color: #000;
+  }
+
+  .gallery a:link, .gallery a:visited {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+  }
+  
+  .cities{
+    
+    display: inline-block;
+  }
+  .cities h2{
+    padding:0px 20px 0px 20px;
+    font-size: 36px;
+    
+  }
+
+  .cityne{
+    display: inline;
+    
+  }
+
+  .cityne a:link, .cityne a:visited{
+    color: #000;
+    position: relative;
+    left:540px;
+    
+  }
+
+  .map{
+    margin: 0px 30px 0px 90px;
+    width: 80%;
+  }
+
+  .places{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: sans-serif;
+    color:#444;
+    
+    
+  
+  }
+
+ .row1 span{
+    position: relative;
+    left: 40px;
+    margin: 0px 65px 0px 65px;
+    font-weight: normal;
+    font-size: 16px;
+
+  }
