@@ -1,0 +1,173 @@
+.login-head{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .login-head .uber1{
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 27px;
+    font-weight:450;
+    position: relative;
+    left: 60px;
+    top:20px;
+  }
+
+  .login-head .eat{
+    color: rgb(6, 193, 103);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 27px;
+    font-weight:640;
+    position: relative;
+    left: 60px;
+    top:20px;
+  }
+
+
+
+.main-cont{
+position: relative;
+top: 50%;
+right: 50%;
+left:30%;
+bottom:50%;
+width: 50%;
+height: 100%;
+
+
+}
+
+.main-body{
+margin-top: 0px;
+font-family: sans-serif;
+
+}
+
+
+
+.textbox input{
+background-color: #eee;
+width:350px;
+height: 40px;
+border-radius: 8px;
+font-size: medium;
+border: none;
+}
+
+.conti{
+background-color: #000;
+width:360px;
+height: 40px;
+border-radius: 8px;
+color: #fff;
+margin-top: 12px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+.before{
+display:inline-block ;
+width: 165px;
+}
+
+.after{
+display:inline-block;
+width: 165px;
+position: relative;
+left:200px;
+bottom: 21px;
+}
+
+
+span{
+position: relative;
+bottom: 28px;
+left:5px;
+color: #717070;
+}
+
+.googl{
+background-color: #eeeeee;
+width:360px;
+height: 40px;
+border-radius: 8px;
+color: #000000;
+position: relative;
+margin-top: 12px;
+cursor: pointer;
+border: none;
+
+}
+
+
+img{
+position: relative;
+width: 29px;
+right: 290px;
+top:10px;
+z-index:1;
+}
+
+
+
+.apple{
+background-color: #eeeeee;
+width:360px;
+height: 40px;
+border-radius: 8px;
+color: #000000;
+margin-top: 12px;
+cursor: pointer;
+border: none;
+
+}
+
+.facebook{
+background-color: #eeeeee;
+width:360px;
+height: 40px;
+border-radius: 8px;
+color: #000000;
+margin-top: 12px;
+cursor: pointer;
+border: none;
+
+} 
+
+@media (max-width:787px) {
+
+.main-body {
+  margin-top: 52px;
+  font-family: sans-serif;
+  position: relative;
+  right: 47px;
+
+}
+
+.textbox input,.conti,.googl,.apple,.facebook{
+
+  position: relative;
+  right: 47px;
+  width: 100%;
+  font-size: x-small;
+
+}
+
+span{
+top:0px;
+left: 124px;
+
+}
+.before,.after{
+display: none;
+}
+
+img{
+position: relative;
+top:-37px;
+right:74px;
+}
+
+}
