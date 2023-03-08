@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="app.js"></script>
+    <title>Product list</title>
+</head>
+<body>
+    <section class="container">
+        <form>
+            <i class="fas fa-search"></i>
+            <input type="text" id="search-item" placeholder="Search products" onkeyup="search()">
+        </form>
+
+        <div class="product-list" id="product-list">
+            <div class="product">
+                <img src="images/t-shirt.png" alt="">
+                <div class="p-details">
+                    <h2>T-shirt</h2>
+                    <h3>₹199</h3>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/shoes.png" alt="">
+                <div class="p-details">
+                    <h2>Shoes</h2>
+                    <h3>₹380</h3>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/cap.png" alt="">
+                <div class="p-details">
+                    <h2>Cap</h2>
+                    <h3>₹149</h3>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/shoes.png" alt="">
+                <div class="p-details">
+                    <h2>Shoes</h2>
+                    <h3>₹380</h3>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/cap.png" alt="">
+                <div class="p-details">
+                    <h2>Cap</h2>
+                    <h3>₹149</h3>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/shoes.png" alt="">
+                <div class="p-details">
+                    <h2>Shoes</h2>
+                    <h3>₹380</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <button class="button-value" value="T-shirt"onclick="button_search('T-shirt')">T-shirt</button>
+        <button class="button-value" value="Shoe"onclick="button_search(this.value)">Shoe</button>
+        <button class="button-value" value="Cap"onclick="button_search(this.value)">Cap</button>
+    </div>
+</body>
+</html>
