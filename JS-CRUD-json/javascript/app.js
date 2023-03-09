@@ -26,6 +26,15 @@ function Submit()
 
 
 function readingDataFromLocalStorage(e_arr){
+    
+     var json_data={
+        Name: e_arr[0],
+        ID:e_arr[1],
+        Designation:e_arr[2]
+    }
+
+    var datas=JSON.stringify(json_data);
+    localStorage.setItem(e_arr[0],datas);
 
     var n=localStorage.setItem("Name",e_arr[0]);
     var i=localStorage.setItem("ID",e_arr[1]);
