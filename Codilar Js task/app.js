@@ -99,7 +99,8 @@ let products = {
     //loop through all cards
     elements.forEach((element) => {
       //display all cards on 'all' button click
-      if (value == "all") {
+      if (value == "all") 
+      {
         element.classList.remove("hide");
       } else {
         //Check if element contains category class
